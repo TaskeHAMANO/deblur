@@ -413,7 +413,7 @@ def build_biom_table(seqs_dir, output_biom_dir, min_reads, file_type,
 
     output_filename = 'all.biom'
     output_fp = join(output_biom_dir, output_filename)
-    outputfasta_filename = 'all.seq.fa'
+    outputfasta_filename = 'all.seqs.fa'
     outputfasta_fp = join(output_biom_dir, outputfasta_filename)
 
     samples = get_files_for_table(seqs_dir, file_type)
